@@ -28,6 +28,7 @@ class Gym
     total = 0 
     memberships.each do |lifter|
       lifter.lift_total += total 
+    end 
+    total 
   end 
-  total 
 end
